@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html>
+   <head>
+      <meta charset=’utf-8'>
+      <meta http-equiv=’X-UA-Compatible’ content=’IE=edge’>
+      <title>The Alchemist</title>
+      <meta name=’viewport’ content=’width=device-width, initial-scale=1'>
+      <base href=”https://www.amazon.com/Alchemist-Paulo-Coelho/dp/0062315005/ref=pd_lpo_14_img_1/140-0874392-3983348?_encoding=UTF8&pd_rd_i=0062315005&pd_rd_r=ac206bd5-0d01-478c-8f88-4f3b9bf139c3&pd_rd_w=oAP74&pd_rd_wg=AQkGd&pf_rd_p=a0d6e967-6561-454c-84f8-2ce2c92b79a6&pf_rd_r=HKK4081NGP3CX57GXWSP&psc=1&refRID=HKK4081NGP3CX57GXWSP" target=”_blank”>
+   </head>
+   <body>
+      <! — Name and author of the book → 
+      <header>
+         <h1>The Alchemist</h1>
+         <h2>author : Paulo Coelho</h2>
+      </header>
+      <main>
+         <div>
+            <! — Overall summary of the book → 
+            <h3>Summary</h3>
+            <p>The Alchemist follows the journey of an Andalusian shepherd boy named Santiago. Believing a recurring dream to be prophetic, he asks a Gypsy fortune teller in the nearby town about its meaning. The woman interprets the dream as a prophecy telling the boy that he will discover a treasure at the Egyptian pyramids. </p>
+            <! — Reason to read this book → 
+            <h3>Why read this book?</h3>
+            <p> The Alchemist has become a popular book for many reasons. It gives you an insight of how life can be in different perspectives. At the same time it tells you how important your dreams are or can be and tells you to follow your dreams. It advices you to live your dreams. </p>
+            <! — Message of this book → 
+            <h3>What is the main message of this book?</h3>
+            <p> The constant theme in The Alchemist is to pursue your dreams by following what your heart desires. During the young boy’s journey, he learns to listen to the heart and to follow the language of omens. With each passing obstacle and hurdle that the young boy encounters, there is a lesson to learn. </p>
+            <! — Video summary of this book → 
+            <h3>A short video about the book</h3>
+            <iframe width=”560" height=”315" src=”https://www.youtube.com/embed/6Xi06683LPo" title=”YouTube video player” frameborder=”0" allow=”accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture” allowfullscreen></iframe> 
+         </div>
+      </main>
+      <! — A link to buy this book → 
+      <footer> <a href=”tags”> Buy this book? </a> </footer>
+   </body>
+</html>

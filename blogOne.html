@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>A simple HTML page</title>
+</head>
+
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">AVISHKAR DALVI</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a href="/" class="link">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/projects.html" class="link">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/blogs.html" class="link link-active">blogs</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <h1 class="hero-heading"><span style="color:var(--primary-color);">A simple HTML page</span></h1>
+    </header>
+    <section>
+        <div class="container container-center">
+            <p>Hello reader,</p>
+            <p>This is my first blog ever and I hope this blog finds you in good health.</p>
+            <p>Today I am explaining how to create a basic HTML page for beginners as I am too learning HTML and would
+                like to share my learnings.</p>
+            <p>I have created a simple page that explains my favorite book The Alchemist.</p>
+            <p>Look at the page below:</p>
+            <!-- image of the page  -->
+            <section class="img-section">
+                <img class="section-img" src="https://miro.medium.com/max/2722/1*Fp1vUWnXhQc29yUtGj50LQ.png"
+                    alt="blog-image">
+            </section>
+            <p>Code :</p>
+            <!-- code snippet -->
+
+            <textarea  id="code"  rows="37" readonly></textarea>
+            <p>Here we have a simple page that is divided into meta, header main, and footer sections.</p>
+            <p>The meta section consists of utf8 character declaration, viewport definition for responsiveness, and a
+                base tag to open the related link in our page into a new tag notice the target=”_blank” attribute.</p>
+            <p>The main section has several text blocks with headers that describe the book and also has a video that is
+                under the iframe tag. You can add this video by visiting your desired video on YouTube then clicking on
+                the share button and selecting the embed option which generates the iframe tag for that video you can
+                then copy that tag into your page.</p>
+            <p>The footer section has a link to buy the book, you can add this by adding the desired link into the href
+                attribute of your base tag in the meta-tag section and setting the target attribute to blank, and then
+                by setting the href attribute of your anchor tag in the footer to tags.</p>
+            <p>That's it for that day guys hope you find this blog helpful, do try this on your own, and do let me know
+                how do I improve on my journey of writing technical blogs your feedback is appreciated.</p>
+            <p>Thanks for your time.</p>
+        </div>
+    </section>
+    <script>
+        fetch('snippet/blogOne.txt')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("code").value = data;
+            });
+    </script>
+</body>
+
+</html>
