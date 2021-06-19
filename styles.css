@@ -169,7 +169,9 @@ textarea {
     width: 100%!important;
     white-space: pre;
 }
+
 /* media queries */
+
 @media screen and (max-width: 480px) {
     .list-item-inline {
         display: inline;
@@ -182,4 +184,12 @@ textarea {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-  }
+    .img-section {
+        padding: 1rem 0rem;
+    }
+    .img-section .section-img {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+}
