@@ -193,3 +193,25 @@ textarea {
         margin: auto;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .list-item-inline {
+        display: inline;
+        padding: 0rem 0.1rem;
+    }
+    .link {
+        box-sizing: border-box;
+        text-decoration: none;
+        padding: 0.2rem 0.4rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .img-section {
+        padding: 1rem 0rem;
+    }
+    .img-section .section-img {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+}
