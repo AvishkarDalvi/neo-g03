@@ -180,6 +180,7 @@ textarea {
 @media screen and (max-width: 480px) {
     .hero {
         padding: 0;
+        padding-top: 2.5rem;
     }
     .padding-div {
         padding: 2rem;
@@ -219,6 +220,7 @@ textarea {
 @media screen and (max-width: 360px) {
     .hero {
         padding: 0;
+        padding-top: 2.5rem;
     }
     .padding-div {
         padding: 2rem;
