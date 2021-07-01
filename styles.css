@@ -173,9 +173,6 @@ textarea {
 /* media queries */
 
 @media screen and (max-width: 480px) {
-    .container {
-        padding: 0;
-    }
     .container-center {
     max-width: 100%;
     margin: auto;
@@ -202,9 +199,6 @@ textarea {
 }
 
 @media screen and (max-width: 360px) {
-    .container {
-        padding: 0;
-    }
     .container-center {
     max-width: 100%;
     margin: auto;
