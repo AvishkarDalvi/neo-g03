@@ -180,7 +180,7 @@ textarea {
     max-width: 100%;
     margin: auto;
 }
-.container-center>p{
+.container-center>p,h1{
     word-wrap: break-word;
 }
     .list-item-inline {
@@ -212,7 +212,7 @@ textarea {
     max-width: 100%;
     margin: auto;
 }
-.container-center>p{
+.container-center>p,h1{
     word-wrap: break-word;
 }
     .list-item-inline {
