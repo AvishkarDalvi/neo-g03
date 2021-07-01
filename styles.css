@@ -126,7 +126,7 @@ hr {
     padding: 2rem;
 }
 /* list  */
-ul{
+.padding-div>ul{
     padding-inline-start: 0;
     margin-block-start: 0em;
     margin-block-end: 0em;
