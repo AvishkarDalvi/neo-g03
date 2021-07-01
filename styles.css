@@ -173,6 +173,10 @@ textarea {
 /* media queries */
 
 @media screen and (max-width: 480px) {
+    .padding-div {
+        padding: 2rem;
+        text-align: center;
+    }
     li>.container {
         padding: 0;
     }
@@ -205,6 +209,10 @@ textarea {
 }
 
 @media screen and (max-width: 360px) {
+    .padding-div {
+        padding: 2rem;
+        text-align: center;
+    }
     li>.container {
         padding: 0;
     }
