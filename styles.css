@@ -125,7 +125,12 @@ hr {
 .padding-div {
     padding: 2rem;
 }
-
+/* list  */
+ul{
+    padding-inline-start: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
 /* footer */
 
 .footer {
