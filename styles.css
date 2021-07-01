@@ -178,6 +178,9 @@ textarea {
 /* media queries */
 
 @media screen and (max-width: 480px) {
+    .hero {
+        padding: 0;
+    }
     .padding-div {
         padding: 2rem;
         text-align: center;
@@ -214,6 +217,9 @@ textarea {
 }
 
 @media screen and (max-width: 360px) {
+    .hero {
+        padding: 0;
+    }
     .padding-div {
         padding: 2rem;
         text-align: center;
