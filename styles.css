@@ -173,10 +173,10 @@ textarea {
 /* media queries */
 
 @media screen and (max-width: 480px) {
-    .container {
+    li>.container {
         padding: 0;
     }
-    .container-center {
+    li>.container-center {
     max-width: 100%;
     margin: auto;
 }
@@ -202,10 +202,10 @@ textarea {
 }
 
 @media screen and (max-width: 360px) {
-    .container {
+    li>.container {
         padding: 0;
     }
-    .container-center {
+    li>.container-center {
     max-width: 100%;
     margin: auto;
 }
