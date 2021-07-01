@@ -173,6 +173,10 @@ textarea {
 /* media queries */
 
 @media screen and (max-width: 480px) {
+    .container-center {
+    max-width: 100%;
+    margin: auto;
+}
     .list-item-inline {
         display: inline;
         padding: 0rem 0.1rem;
@@ -195,6 +199,10 @@ textarea {
 }
 
 @media screen and (max-width: 360px) {
+    .container-center {
+    max-width: 100%;
+    margin: auto;
+}
     .list-item-inline {
         display: inline;
         padding: 0rem 0.1rem;
